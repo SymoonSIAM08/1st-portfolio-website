@@ -38,6 +38,18 @@ nav{
 
 
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
@@ -88,4 +100,29 @@ nav ul{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+}
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+   
+}
+.about{
+    border-radius: 10px;
+    padding: 110px 125px;
+    text-align: center;
+    margin-top: 115px;
+
+}
+.item-description{
+    font-weight: 750;
+}
+.item-title{
+    font-weight: 550;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
