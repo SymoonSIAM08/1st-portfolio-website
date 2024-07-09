@@ -14,6 +14,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-1{
+    color: #181818;
+}
 
 
 /* nav styles */
@@ -55,7 +58,7 @@ nav ul{
 }
 /* banner-styles */
 .banner-greetings{
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 600;
 
 }
@@ -64,6 +67,25 @@ nav ul{
     font-weight: bolder;
 
 }
-.dark-1{
-    color: #181818;
+
+.banner-profile-picture{
+    width: 580px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0 230px;
+    align-items: center;
+ 
+}
+.banner-content{
+    max-width: 580px;
+   
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
