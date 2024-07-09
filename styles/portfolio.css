@@ -110,17 +110,18 @@ main{
    
 }
 main section{
-   
+
+    
         margin-top: 130px;
+      
         margin-bottom: 130px;
-    
-    
-    }
+
 }
 .about{
     border-radius: 10px;
     padding: 110px 125px;
     text-align: center;
+    
   
 
 }
