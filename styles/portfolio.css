@@ -151,3 +151,7 @@ main section{
 
 
 }
+/* resume-section */
+.resume-container{
+    display: flex;
+}
